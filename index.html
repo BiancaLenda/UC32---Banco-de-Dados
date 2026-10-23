@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bianca Vieira · Designer</title>
+  <meta name="description" content="Portfólio de Bianca Vieira, designer que cria identidades visuais e interfaces com personalidade. Estudo de caso: CROC'K Salgadaria.">
+  <meta property="og:title" content="Bianca Vieira · Designer">
+  <meta property="og:description" content="Identidades e interfaces que as pessoas lembram.">
+  <meta property="og:image" content="assets/bianca.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,600..900,100,1;1,9..144,600..900,100,1&family=Outfit:wght@300;400;500;600&family=Bodoni+Moda:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- NAV -->
+  <header class="nav" id="topo">
+    <a class="nav__logo" href="#topo" aria-label="Bianca Vieira, início">B<span>.</span>V</a>
+    <nav class="nav__links" aria-label="Seções" id="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#crio">O que crio</a>
+      <a href="#casos">Cases</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contato" class="nav__cta">Vamos conversar</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- 1. HERO -->
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Portfólio · Design &amp; Interface</p>
+        <h1 class="display">
+          <span class="display__line">Identidades</span>
+          <span class="display__line display__line--alt">que ficam<br>na memória.</span>
+        </h1>
+        <p class="hero__sub">
+          Sou a <strong>Bianca Vieira</strong>, designer e estudante de Informática para Internet.
+          Crio marcas e interfaces com personalidade, e ainda entendo o código por trás delas.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="#casos">Ver o case CROC'K</a>
+          <a class="btn btn--line" href="#contato">Quero um projeto assim</a>
+        </div>
+      </div>
+
+      <figure class="hero__photo">
+        <!-- Foto original, sem filtros nem cortes: mantém a proporção do arquivo (1178 x 759) -->
+        <img src="assets/bianca.jpg" width="1178" height="759" alt="Retrato de Bianca Vieira, designer">
+        <figcaption class="sticker" aria-hidden="true">Bianca<br>Vieira</figcaption>
+      </figure>
+    </section>
+
+    <!-- FAIXA -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Identidade visual</span><i>✦</i><span>Logo</span><i>✦</i><span>Interface</span><i>✦</i><span>Criatividade</span><i>✦</i><span>Autoliderança</span><i>✦</i>
+        <span>Identidade visual</span><i>✦</i><span>Logo</span><i>✦</i><span>Interface</span><i>✦</i><span>Criatividade</span><i>✦</i><span>Autoliderança</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- 2. SOBRE -->
+    <section class="sobre" id="sobre">
+      <div class="sobre__title reveal">
+        <p class="eyebrow">Sobre mim</p>
+        <h2 class="display display--md">Criatividade<br>com método.</h2>
+      </div>
+      <div class="sobre__body reveal">
+        <p class="lead">Design, para mim, sempre foi o lugar onde eu posso expressar quem eu sou.</p>
+        <p>
+          Gosto de marcas que têm identidade de verdade, daquelas que você reconhece antes mesmo de ler o nome.
+          Esse olhar vem do design, mas também de outras partes da minha vida: dos treinos e da alimentação,
+          onde aprendi que resultado vem de rotina, disciplina e de liderar a mim mesma quando ninguém está cobrando.
+        </p>
+        <p>
+          Hoje estudo Informática para Internet e tenho 2 anos de prática em design.
+          Nos projetos em equipe, costumo ser a pessoa que cuida da ideia e da interface, enquanto o time constrói o código.
+          Como também entendo HTML, falo a língua dos dois lados, e isso deixa a conversa (e a entrega) bem mais simples.
+        </p>
+        <p>
+          Cada cliente pede algo diferente, e eu gosto de me aproximar do gosto dele sem perder o cuidado com a estética.
+          É assim que uma marca deixa de ser só um logo e vira algo que as pessoas procuram de novo.
+        </p>
+        <ul class="chips" aria-label="Em três palavras">
+          <li>Autoliderança</li><li>Criatividade</li><li>Responsabilidade</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. O QUE CRIO -->
+    <section class="crio" id="crio">
+      <div class="crio__head reveal">
+        <p class="eyebrow eyebrow--gold">O que eu crio</p>
+        <h2 class="display display--md display--cream">Do logo<br>à tela.</h2>
+      </div>
+      <div class="crio__grid">
+        <article class="tile reveal">
+          <span class="tile__n">01</span>
+          <h3>Logo e identidade visual</h3>
+          <p>Nome, símbolo, cores, tipografia e o jeito de a marca aparecer em embalagens, redes e vitrine.</p>
+        </article>
+        <article class="tile tile--gold reveal">
+          <span class="tile__n">02</span>
+          <h3>Interface de sites</h3>
+          <p>Telas organizadas no Figma, pensadas para quem usa e prontas para o time de desenvolvimento.</p>
+        </article>
+        <article class="tile tile--green reveal">
+          <span class="tile__n">03</span>
+          <h3>Ponte design + código</h3>
+          <p>Conheço HTML, então desenho já pensando no que é possível construir.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. CASES -->
+    <section class="casos" id="casos">
+      <div class="casos__head reveal">
+        <p class="eyebrow">Estudos de caso</p>
+        <h2 class="display display--md">Trabalhos<br>que contam.</h2>
+      </div>
+
+      <!-- CASE 1: CROC'K (destaque) -->
+      <article class="case case--main reveal" id="crock">
+        <div class="case__media">
+          <img src="assets/croc-k.png" width="1920" height="1080" alt="Identidade visual da CROC'K Salgadaria: logo creme sobre fundo vermelho, quadriculado preto e creme e fotos de coxinha, cookies e bolinhas de queijo" loading="lazy">
+        </div>
+        <div class="case__info">
+          <p class="case__tag">Case principal · Branding</p>
+          <h3 class="case__title">CROC'K <small>Salgadaria</small></h3>
+          <p class="case__intro">Uma salgadaria que queria ser lembrada pela marca, não só pelo sabor.</p>
+
+          <dl class="steps">
+            <div class="step">
+              <dt><span>01</span> Contexto</dt>
+              <dd>O cliente tinha uma loja de salgados e queria fugir do padrão das salgadarias de Natal. Precisava de um nome e de uma logo marcantes, capazes de atrair gente pela identidade e não só pelo gosto.</dd>
+            </div>
+            <div class="step">
+              <dt><span>02</span> Desafio</dt>
+              <dd>Pensar a lógica da marca inteira, não apenas o desenho do logo, e garantir que ela funcionasse também no site.</dd>
+            </div>
+            <div class="step">
+              <dt><span>03</span> Ação</dt>
+              <dd>Apostei na criatividade: letras curvas e expressivas que viram a assinatura da marca, vermelho forte, quadriculado preto e creme e fotos dos produtos em destaque, com a palavra “Salgadaria” em letras espaçadas.</dd>
+            </div>
+            <div class="step">
+              <dt><span>04</span> Resultado</dt>
+              <dd>Cliente 100% satisfeito. A identidade segue a mesma até hoje e, sempre que ele quer atualizar algo ou criar uma variação, é comigo que ele volta.</dd>
+            </div>
+          </dl>
+        </div>
+      </article>
+
+      <!-- CASE 2: REDE SOLIDARIZA -->
+      <article class="case case--flip reveal" id="solidariza">
+        <div class="case__media case__media--blue">
+          <img src="assets/rede-solidariza.png" width="402" height="174" alt="Logo da Rede Solidariza: símbolo de coração com pessoas dentro de colchetes coloridos e o nome em branco sobre fundo azul" loading="lazy">
+        </div>
+        <div class="case__info">
+          <p class="case__tag">Case · Interface web</p>
+          <h3 class="case__title">Rede Solidariza</h3>
+          <p class="case__intro">Um site que liga quem quer doar a quem precisa, sem bagunça e sem desperdício.</p>
+
+          <dl class="steps steps--compact">
+            <div class="step">
+              <dt><span>01</span> Contexto</dt>
+              <dd>Projeto de uma plataforma para conectar doadores e pessoas em necessidade de forma organizada.</dd>
+            </div>
+            <div class="step">
+              <dt><span>02</span> Desafio</dt>
+              <dd>Fazer a doação parecer simples e confiável, para as duas pontas, evitando que itens se percam ou se acumulem sem uso.</dd>
+            </div>
+            <div class="step">
+              <dt><span>03</span> Ação</dt>
+              <dd>Fiquei com a ideia e a interface: identidade com símbolo e cores vivas, protótipo navegável no Figma e telas pensadas para o time de código seguir.</dd>
+            </div>
+            <div class="step">
+              <dt><span>04</span> Resultado</dt>
+              <dd>Interface completa e prototipada, entregue para a equipe desenvolver.</dd>
+            </div>
+          </dl>
+          <!-- Troque o link abaixo se mudar o arquivo do Figma -->
+          <a class="btn btn--dark" id="figma-link" href="https://www.figma.com/proto/YX2zsT0FQtKQvx7Qbn3q26/UC30--?node-id=153-473&starting-point-node-id=153%3A473" target="_blank" rel="noopener">Abrir protótipo no Figma ↗</a>
+        </div>
+      </article>
+
+      <!-- CASE 3: MAGG'S -->
+      <article class="case case--maggs reveal" id="maggs">
+        <div class="case__media case__media--maggs" aria-hidden="true">
+          <!-- Quando tiver imagens da MAGG'S, troque este bloco por: <img src="assets/maggs.png" alt="..."> -->
+          <div class="maggs-mark">MAGG'S</div>
+          <div class="maggs-check"></div>
+        </div>
+        <div class="case__info">
+          <p class="case__tag">Case · Branding minimalista</p>
+          <h3 class="case__title">MAGG'S <small>Cookies</small></h3>
+          <p class="case__intro">Uma loja de cookies com visual limpo, elegante e fácil de reconhecer.</p>
+
+          <dl class="steps steps--compact">
+            <div class="step">
+              <dt><span>01</span> Contexto</dt>
+              <dd>Marca de cookies que pedia o oposto da CROC'K: uma identidade minimalista.</dd>
+            </div>
+            <div class="step">
+              <dt><span>02</span> Desafio</dt>
+              <dd>Passar sofisticação com poucos elementos, sem ficar com cara de modelo pronto.</dd>
+            </div>
+            <div class="step">
+              <dt><span>03</span> Ação</dt>
+              <dd>Logo e identidade com serifa de alto contraste, paleta enxuta em azul e creme e o quadriculado como detalhe de assinatura.</dd>
+            </div>
+          </dl>
+        </div>
+      </article>
+    </section>
+
+    <!-- 5. HABILIDADES -->
+    <section class="skills" id="habilidades">
+      <div class="skills__head reveal">
+        <p class="eyebrow">Habilidades</p>
+        <h2 class="display display--md">O que eu<br>levo comigo.</h2>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skills__col reveal">
+          <h3>Técnicas</h3>
+          <ul class="meter">
+            <li>
+              <div class="meter__top"><span>Figma</span><em>Experiência</em></div>
+              <div class="meter__bar" style="--v: 85%"><i></i></div>
+            </li>
+            <li>
+              <div class="meter__top"><span>Canva</span><em>Experiência</em></div>
+              <div class="meter__bar" style="--v: 85%"><i></i></div>
+            </li>
+            <li>
+              <div class="meter__top"><span>HTML</span><em>Em evolução</em></div>
+              <div class="meter__bar" style="--v: 60%"><i></i></div>
+            </li>
+          </ul>
+          <p class="note">Estudo Informática para Internet, então a parte de código só tende a crescer.</p>
+        </div>
+
+        <div class="skills__col skills__col--cream reveal">
+          <h3>Comportamentais</h3>
+          <ul class="soft">
+            <li><strong>Liderança</strong><span>Conduzo a ideia e a interface nos projetos em equipe.</span></li>
+            <li><strong>Criatividade</strong><span>Minha marca registrada: propostas que fogem do óbvio.</span></li>
+            <li><strong>Autoliderança</strong><span>Me organizo e entrego sem precisar ser cobrada.</span></li>
+            <li><strong>Responsabilidade</strong><span>Prazo e cuidado com o que o cliente confiou a mim.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CONTATO -->
+    <section class="contato" id="contato">
+      <div class="contato__box reveal">
+        <p class="eyebrow eyebrow--gold">Contato</p>
+        <h2 class="display display--lg display--cream">Sua marca<br>merece ser<br><em>lembrada.</em></h2>
+        <p class="contato__text">Me conta sobre o seu projeto. Vou te ajudar a criar uma identidade que seja a sua cara e que o seu cliente reconheça de longe.</p>
+        <a class="btn btn--gold btn--lg" id="instagram-link" href="https://www.instagram.com/" target="_blank" rel="noopener">Chamar no Instagram ↗</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="ano">2026</span> Bianca Vieira</span>
+    <a href="#topo">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
